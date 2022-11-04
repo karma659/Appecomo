@@ -244,5 +244,4 @@ export const listTopProducts = () => async (dispatch) => {
           ? error.response.data.message
           : error.message,
     })
-  }
-}
+  }}
