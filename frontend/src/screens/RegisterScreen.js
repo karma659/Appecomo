@@ -43,7 +43,7 @@ const RegisterScreen = ({ location, history }) => {
       {error && <Message variant='danger'>{error}</Message>}
       {loading && <Loader />}
       <Form onSubmit={submitHandler}>
-        <Form.Group controlId='name'>
+        <Form.Group className=" pb-2 mb-2 " controlId='name'>
           <Form.Label>Name</Form.Label>
           <Form.Control
             type='name'
@@ -53,7 +53,7 @@ const RegisterScreen = ({ location, history }) => {
           ></Form.Control>
         </Form.Group>
 
-        <Form.Group controlId='email'>
+        <Form.Group className=" pb-2 mb-2 " controlId='email'>
           <Form.Label>Email Address</Form.Label>
           <Form.Control
             type='email'
@@ -63,7 +63,7 @@ const RegisterScreen = ({ location, history }) => {
           ></Form.Control>
         </Form.Group>
 
-        <Form.Group controlId='password'>
+        <Form.Group className=" pb-2 mb-2 " controlId='password'>
           <Form.Label>Password</Form.Label>
           <Form.Control
             type='password'
@@ -73,7 +73,7 @@ const RegisterScreen = ({ location, history }) => {
           ></Form.Control>
         </Form.Group>
 
-        <Form.Group controlId='confirmPassword'>
+        <Form.Group className=" pb-2 mb-2"  controlId='confirmPassword'>
           <Form.Label>Confirm Password</Form.Label>
           <Form.Control
             type='password'
@@ -88,7 +88,7 @@ const RegisterScreen = ({ location, history }) => {
         </Button>
       </Form>
 
-      <Row className='py-3'>
+      <Row className='py-3 '>
         <Col>
           Have an Account?{' '}
           <Link to={redirect ? `/login?redirect=${redirect}` : '/login'}>

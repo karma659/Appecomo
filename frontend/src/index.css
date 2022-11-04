@@ -1,19 +1,23 @@
 main {
   min-height: 80vh;
+  background-image: linear-gradient(to right, rgb(6, 54, 50), black);
 }
 
 h3 {
   padding: 1rem 0;
+  
 }
 
 h1 {
   font-size: 1.8rem;
   padding: 1rem 0;
+  color: whitesmoke;
 }
 
 h2 {
   font-size: 1.4rem;
   padding: 0.5rem 0;
+  
 }
 
 .rating span {
@@ -25,6 +29,7 @@ h2 {
 .carousel-item-prev,
 .carousel-item.active {
   display: flex;
+  
 }
 .carousel-caption {
   position: absolute;
@@ -33,6 +38,7 @@ h2 {
 
 .carousel-caption h2 {
   color: #fff;
+  
 }
 
 .carousel img {
@@ -42,9 +48,12 @@ h2 {
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
+  
+  
 }
 .carousel a {
   margin: 0 auto;
+ 
 }
 @media (max-width: 900px) {
   .carousel-caption h2 {

@@ -117,13 +117,14 @@ const ProductScreen = ({ history, match }) => {
                         <Col>Qty</Col>
                         <Col>
                           <Form.Control
+                           className="bg-black"
                             as='select'
                             value={qty}
                             onChange={(e) => setQty(e.target.value)}
                           >
                             {[...Array(product.countInStock).keys()].map(
                               (x) => (
-                                <option key={x + 1} value={x + 1}>
+                                <option  key={x + 1} value={x + 1}>
                                   {x + 1}
                                 </option>
                               )
@@ -177,6 +178,7 @@ const ProductScreen = ({ history, match }) => {
                       <Form.Group className="m-2 " controlId='rating'>
                         <Form.Label>Rating</Form.Label>
                         <Form.Control
+                        className="bg-black"
                           as='select'
                           value={rating}
                           onChange={(e) => setRating(e.target.value)}

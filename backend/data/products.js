@@ -114,7 +114,7 @@ const products = [
     rating: 4.8,
     numReviews: 7,
   },{
-    name: 'Apple Watch Series 4 GPS + Cellular - 44 mm Gold Stainless Steel Case with Stone Sport Band',
+    name: 'Apple Watch Series 4 GPS + Cellular ',
     image: '/images/watch.jpg',
     description:
       'You are looking at the Apple Watch Series 4 +Cellular. This unisex smart watch by Apple is light in weight and sits comfortably on your wrist ',
